@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Plants Hub — IGCSE Biology 0610</title>
+<meta name="author" content="Dr Daniel Mompel Riera">
+<meta name="copyright" content="Dr Daniel Mompel Riera, NLCS Jeju">
+<meta name="theme-color" content="#DDEFF7">
+<meta name="description" content="One plant, root to fruit, for Cambridge IGCSE Biology 0610: a bean grows from a seed to a fruit in nine stages, and each one opens the plant topics — 6, 8, 14.5, 16.3 and 18.2 — and the Plants Lab that teaches them.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🌱</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/hub.css?v=1788965832">
+</head>
+<body>
+
+<!-- ============ the day ============ -->
+<div class="day" aria-hidden="true">
+  <div class="day__haze"></div>
+</div>
+
+<header class="masthead">
+  <a class="up" href="https://mompel226.github.io/biology-hub/" title="Every door: Foundations, the human body, Plants, Life on Earth">← Biology Hub</a>
+  <span class="eyebrow">IGCSE Biology 0610 · topics 6, 8, 14.5, 16.3, 18.2</span>
+  <h1>One plant, <em>root to fruit</em></h1>
+  <p class="lede">A seed under the ground becomes a fruit full of seeds. Every stage on the way is one thing a plant does,
+     and one part of the syllabus. Press a stage, or let it grow.</p>
+  <p class="maker">Made by <strong>Dr Daniel Mompel Riera</strong><span class="maker__at">Biology, NLCS Jeju</span></p>
+</header>
+
+<!-- ============ the plant ============ -->
+<div class="scene" id="map">
+  <svg id="plant" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" role="group" aria-label="A bean plant growing from a seed to a fruit, in a section of ground, with a cactus and a water lily beside it. Point at a stage, or press Tab to move between them.">
+    <defs></defs>
+  </svg>
+  <div class="tag" id="tag" aria-hidden="true"><span class="tag__pill"></span></div>
+</div>
+
+
+<p class="said" id="said"></p>
+
+<!-- ============ the stages, along the bottom ============ -->
+<nav class="strip" id="strip" aria-label="The stages of the plant">
+  <button type="button" class="strip__play" id="play" aria-pressed="true" title="Let the plant grow on its own">⏵ Grow</button>
+  <ol class="strip__steps" id="steps"></ol>
+</nav>
+
+
+<!-- ============ the field notebook ============ -->
+<aside class="book" id="card" aria-live="polite"></aside>
+
+<footer class="foot">
+  <p class="byline">Made by <strong>Dr Daniel Mompel Riera</strong> · NLCS Jeju · <a href="mailto:dmompelriera@nlcsjeju.kr">dmompelriera@nlcsjeju.kr</a></p>
+  <details class="colophon" id="credits">
+    <summary>Syllabus 2026–2028 · the plant is drawn by the page · photographs CC0, public domain or CC BY · <b>credits and sources</b></summary>
+    <p id="creditsList"></p>
+  </details>
+</footer>
+
+<noscript>
+  <p>This page needs JavaScript to grow the plant. The rest of the estate:
+     <a href="https://mompel226.github.io/biology-hub/">Biology Hub</a> ·
+     <a href="https://mompel226.github.io/plants-lab/">Plants Lab</a> ·
+     <a href="https://mompel226.github.io/life-on-earth-hub/">Life on Earth Hub</a></p>
+</noscript>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/data/labs.js?v=1788965832"></script>
+<script src="js/progress.js?v=1788965832"></script>
+<script src="js/topics.js?v=1788965832"></script>
+<script src="js/stages.js?v=1788965832"></script>
+<script src="js/plant.js?v=1788965832"></script>
+<script src="js/plant-draw.js?v=1788965832"></script>
+<script src="js/hub.js?v=1788965832"></script>
+</body>
+</html>
