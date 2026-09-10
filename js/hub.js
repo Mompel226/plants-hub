@@ -41,7 +41,7 @@
     plant.flyTo(box);
   }
   /* which stage a part belongs to, for a click on the plant */
-  var PART_STAGE = { seed: 'seed', roots: 'root', seedling: 'shoot', sun: 'shoot', stem: 'stem', leaf: 'leaf', leaves: 'leaf', flower: 'flower', fruit: 'fruit', xerophyte: 'adapted', hydrophyte: 'adapted', plant: null };
+  var PART_STAGE = { seed: 'seed', roots: 'root', seedling: 'shoot', sun: 'shoot', tip: 'shoot', stem: 'stem', leaf: 'leaf', leaves: 'leaf', flower: 'flower', fruit: 'fruit', xerophyte: 'adapted', hydrophyte: 'adapted', plant: null };
   function stageOfPart(id) { return PART_STAGE[id] || null; }
 
   /* ---------- 2. what is shown, and what the notebook says ---------- */
