@@ -124,7 +124,7 @@
     if (LAB.status === 'live' && LAB.url) {
       h += '<div class="band"><span class="eyebrow">Open now</span></div>' +
         '<a class="hero" href="' + esc(LAB_URL) + '" data-lab="all"><span class="hero__no">Topics 6 · 8 · 14.5 · 16.3 · 18.2</span>' +
-        '<span class="hero__name">' + esc(LAB.lab) + '</span><span class="hero__sub">Every plant topic, on one bean: eleven stations from the seed to the fruit</span>' +
+        '<span class="hero__name">' + esc(LAB.lab) + '</span><span class="hero__sub">Every plant topic, on one bean: twelve stations from the seed to the fruit, with the potometer practical</span>' +
         '<span class="hero__go">Open the lab</span>' + (LAB.detail ? '<span class="hero__stat">' + esc(labDetail()) + '</span>' : '') + '</a>' + progressBlock();
     }
     h += '<div class="band"><span class="eyebrow">The topics</span><span class="count">' + TOPICS.length + ' in one lab</span></div>' +

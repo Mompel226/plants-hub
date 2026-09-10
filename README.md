@@ -33,7 +33,7 @@ and the [Life on Earth Hub](https://mompel226.github.io/life-on-earth-hub/) (top
 Foundations is being built. The link at the top of the page goes back up.
 
 Behind this shelf sits one lab, the **[Plants Lab](https://mompel226.github.io/plants-lab/)**,
-which covers every plant topic in eleven stations. Every stage of the plant here names the station
+which covers every plant topic in twelve stations, the potometer practical among them. Every stage of the plant here names the station
 that teaches it and opens the lab there — the hub introduces, the lab teaches.
 
 > [!TIP]
@@ -52,10 +52,10 @@ that teaches it and opens the lab there — the hub introduces, the lab teaches.
 | # | Topic | Where the lab teaches it | |
 |:--:|-------|-----|:--:|
 | 6 | Plant nutrition | [Plants Lab](https://mompel226.github.io/plants-lab/#leaf) · stations 4 and 5 | 🟢 live |
-| 8 | Transport in plants | [Plants Lab](https://mompel226.github.io/plants-lab/#root) · stations 2, 3, 6 and 7 | 🟢 live |
-| 14.5 | Tropic responses | [Plants Lab](https://mompel226.github.io/plants-lab/#tropisms) · station 8 | 🟢 live |
-| 16.3 | Sexual reproduction in plants | [Plants Lab](https://mompel226.github.io/plants-lab/#flower) · stations 1, 9 and 10 | 🟢 live |
-| 18.2 | Adaptive features | [Plants Lab](https://mompel226.github.io/plants-lab/#adapted) · station 11 | 🟢 live |
+| 8 | Transport in plants | [Plants Lab](https://mompel226.github.io/plants-lab/#root) · stations 2, 3, 6, 7 and 8 | 🟢 live |
+| 14.5 | Tropic responses | [Plants Lab](https://mompel226.github.io/plants-lab/#tropisms) · station 9 | 🟢 live |
+| 16.3 | Sexual reproduction in plants | [Plants Lab](https://mompel226.github.io/plants-lab/#flower) · stations 1, 10 and 11 | 🟢 live |
+| 18.2 | Adaptive features | [Plants Lab](https://mompel226.github.io/plants-lab/#adapted) · station 12 | 🟢 live |
 
 ## 🌱 What is on the page
 
