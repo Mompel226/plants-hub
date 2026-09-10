@@ -57,7 +57,7 @@
     return '<figure class="fig"><picture>' +
       '<source type="image/webp" srcset="' + b + '-900.webp 900w, ' + b + '-1400.webp 1400w" sizes="340px">' +
       '<img src="' + b + '-900.jpg" srcset="' + b + '-900.jpg 900w, ' + b + '-1400.jpg 1400w" sizes="340px" alt="' + esc(img.alt) + '" loading="lazy" decoding="async">' +
-      '</picture><figcaption>' + (img.caption ? esc(img.caption) + ' · ' : '') + '<a href="' + esc(img.url) + '" target="_blank" rel="noopener">' + esc(img.credit) + '</a></figcaption></figure>';
+      '</picture><figcaption>' + (img.caption ? esc(img.caption) + ' · ' : '') + '<a href="' + esc(img.url) + '" target="_blank" rel="noopener">' + esc(String(img.credit).replace(/ · Wikimedia Commons$/, '')) + '</a></figcaption></figure>';
   }
   function backLink() { return held ? '<button type="button" class="back" data-back>The whole plant</button>' : ''; }
   function topicChips(ids) {
@@ -79,9 +79,9 @@
       '<span class="eyebrow">Stage ' + st.n + ' of ' + STAGES.length + '</span><h2><mark>' + esc(st.title) + '</mark></h2>' +
       '<p class="book__text">' + esc(st.text) + '</p>' +
       (st.real ? '<p class="real">' + esc(st.real) + '</p>' : '') +
-      (st.img2 ? '<div class="figs">' + picture(st.img) + picture(st.img2) + '</div>' : picture(st.img)) +
       labLinks(st) +
-      topicChips(st.topics);
+      topicChips(st.topics) +
+      (st.img2 ? '<div class="figs">' + picture(st.img) + picture(st.img2) + '</div>' : picture(st.img));
     cardState = 'stage:' + stageId;
     wireCard();
     if (narrow.matches && held) card.scrollIntoView({ block: 'nearest', behavior: still ? 'auto' : 'smooth' });
