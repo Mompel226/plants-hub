@@ -204,8 +204,10 @@
 
   /* ---------- 6. the plant grows on its own ----------
      Left alone, the plant grows stage by stage, seed to fruit and on to the two plants built
-     for hard places, and starts again. Any touch stops it; it picks up after a long pause. */
-  var tour = null, resume = null, ti = 0, TOUR_MS = 5200, wantTour = !still;
+     for hard places, and starts again. Pointing at a stage or a part stops it, and it picks up after a long
+     pause; the Grow button starts it and, pressed again, pauses it. Scrolling never stops it — on a phone a
+     reader scrolls the notebook while the plant grows, and the plant must keep growing. */
+  var tour = null, resume = null, ti = 0, TOUR_MS = 3600, wantTour = !still;
   function startTour() { if (still || tour || held || !STAGE_IDS.length || !wantTour) return; stepTour(); tour = setInterval(stepTour, TOUR_MS); paintPlay(); }
   function stepTour() { var id = STAGE_IDS[ti % STAGE_IDS.length]; ti++; show(id, true); }
   function stopTour() { clearInterval(tour); tour = null; clearTimeout(resume); paintPlay(); }
@@ -221,11 +223,11 @@
     if (tour) { wantTour = false; stopTour(); leave(); }
     else { wantTour = true; if (held) release(); startTour(); }
   });
+  /* a touch or a scroll does not stop the plant; it only holds back the restart while the reader is busy */
   ['pointerdown', 'wheel', 'touchstart'].forEach(function (ev) {
     window.addEventListener(ev, function (e) {
       if (e.target && e.target.closest && e.target.closest('#play')) return;
-      if (tour) { stopTour(); restTour(); }
-      else if (!held) { clearTimeout(resume); if (wantTour) resume = setTimeout(startTour, 14000); }
+      if (!tour && !held && wantTour && resume) { clearTimeout(resume); resume = setTimeout(startTour, 14000); }
     }, { passive: true });
   });
   document.addEventListener('visibilitychange', function () {
