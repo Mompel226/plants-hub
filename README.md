@@ -10,7 +10,7 @@ the exam wants, then what really happens. Left alone, it grows on its own.
 
 <br>
 
-[![Open the site](https://img.shields.io/badge/▶_Open_the_site-0969DA?style=for-the-badge&logoColor=white)](https://mompel226.github.io/plants-hub/)
+[![Open the site](https://img.shields.io/badge/▶_Open_the_site-0969DA?style=for-the-badge&logoColor=white)](https://nlcsbiology.com/plants-hub/)
 
 ![IGCSE Biology 0610](https://img.shields.io/badge/IGCSE_Biology-0610-3D7A54)
 ![No sign-up](https://img.shields.io/badge/students-no_sign--up_needed-6FA287)
@@ -26,13 +26,13 @@ by **Dr Daniel Mompel Riera** · NLCS Jeju
 
 ## 🧭 Where this sits
 
-This is one **shelf** of the [Biology Hub](https://mompel226.github.io/biology-hub/), the front
+This is one **shelf** of the [Biology Hub](https://nlcsbiology.com/biology-hub/), the front
 door to every Biology app at NLCS Jeju. A student goes front door → this shelf → a lab. The other
-shelves are the [Human Body Hub](https://mompel226.github.io/human-body-hub/) (topics 7 and 9–16)
-and the [Life on Earth Hub](https://mompel226.github.io/life-on-earth-hub/) (topics 1 and 17–21);
+shelves are the [Human Body Hub](https://nlcsbiology.com/human-body-hub/) (topics 7 and 9–16)
+and the [Life on Earth Hub](https://nlcsbiology.com/life-on-earth-hub/) (topics 1 and 17–21);
 Foundations is being built. The link at the top of the page goes back up.
 
-Behind this shelf sits one lab, the **[Plants Lab](https://mompel226.github.io/plants-lab/)**,
+Behind this shelf sits one lab, the **[Plants Lab](https://nlcsbiology.com/plants-lab/)**,
 which covers every plant topic in twelve stations, the potometer practical among them. Every stage of the plant here names the station
 that teaches it and opens the lab there — the hub introduces, the lab teaches.
 
@@ -45,17 +45,17 @@ that teaches it and opens the lab there — the hub introduces, the lab teaches.
 
 > [!TIP]
 > **Send them the link and you are done.**
-> [mompel226.github.io/plants-hub](https://mompel226.github.io/plants-hub/)
+> [nlcsbiology.com/plants-hub](https://nlcsbiology.com/plants-hub/)
 >
 > No account, no sign-up, no install. It works on a phone, a Chromebook or a school PC.
 
 | # | Topic | Where the lab teaches it | |
 |:--:|-------|-----|:--:|
-| 6 | Plant nutrition | [Plants Lab](https://mompel226.github.io/plants-lab/#leaf) · stations 4 and 5 | 🟢 live |
-| 8 | Transport in plants | [Plants Lab](https://mompel226.github.io/plants-lab/#root) · stations 2, 3, 6, 7 and 8 | 🟢 live |
-| 14.5 | Tropic responses | [Plants Lab](https://mompel226.github.io/plants-lab/#tropisms) · station 9 | 🟢 live |
-| 16.3 | Sexual reproduction in plants | [Plants Lab](https://mompel226.github.io/plants-lab/#flower) · stations 1, 10 and 11 | 🟢 live |
-| 18.2 | Adaptive features | [Plants Lab](https://mompel226.github.io/plants-lab/#adapted) · station 12 | 🟢 live |
+| 6 | Plant nutrition | [Plants Lab](https://nlcsbiology.com/plants-lab/#leaf) · stations 4 and 5 | 🟢 live |
+| 8 | Transport in plants | [Plants Lab](https://nlcsbiology.com/plants-lab/#root) · stations 2, 3, 6, 7 and 8 | 🟢 live |
+| 14.5 | Tropic responses | [Plants Lab](https://nlcsbiology.com/plants-lab/#tropisms) · station 9 | 🟢 live |
+| 16.3 | Sexual reproduction in plants | [Plants Lab](https://nlcsbiology.com/plants-lab/#flower) · stations 1, 10 and 11 | 🟢 live |
+| 18.2 | Adaptive features | [Plants Lab](https://nlcsbiology.com/plants-lab/#adapted) · station 12 | 🟢 live |
 
 ## 🌱 What is on the page
 
