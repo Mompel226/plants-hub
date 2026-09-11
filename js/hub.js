@@ -19,7 +19,7 @@
   var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var narrow = window.matchMedia('(max-width: 900px)');
   var LAB = TOPICS[0] || {};
-  var LAB_URL = (LAB.url || 'https://mompel226.github.io/plants-lab/').replace(/#.*$/, '');
+  var LAB_URL = (LAB.url || 'https://nlcsbiology.com/plants-lab/').replace(/#.*$/, '');
   var G = {}; (P.parts || []).forEach(function (p) { G[p.id] = p; });
   var BY = {}; STAGES.forEach(function (s) { BY[s.id] = s; });
   var STAGE_IDS = (P.stages || []).map(function (s) { return s.id; });
