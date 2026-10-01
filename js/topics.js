@@ -1,8 +1,10 @@
 /* ============================================================
    Plants Hub — the topic register
    ------------------------------------------------------------
-   THIS IS THE ONLY FILE YOU EDIT WHEN A LAB CHANGES.
-   One lab covers every plant topic, so each topic here points at a station of it.
+   WHEN A LAB CHANGES, this is the file to edit HERE (with js/stages.js for a station's id, number or
+   title). One lab covers every plant topic, so each topic here points at a station of it. A new lab
+   also needs its row in labs-shared/labs.json, the front door's js/shelves.js, the labs script's
+   LABS and the sitemap.
 
    id      unique key
    no      Cambridge 0610 topic number, as taught here
@@ -12,7 +14,10 @@
    part    what it lights on the plant: a part id from js/plant.js
    stage   the growth stage the hub shows for it (js/plant.js stages)
    blurb   one or two sentences, in plain words
-   detail  a short fact shown on an open lab, e.g. "12 stations · 86 questions"
+   detail  which stations of the lab teach this topic, e.g. "Stations 4 and 5" — shown under the
+           topic in the list. The lab's size on the Open now card comes from the register
+           (labDetail in js/hub.js), not from here; keep the first topic's detail non-empty
+           (hub.js shows that size only when it is).
    status  "live" | "build" | "planned"
    url     the published lab, opened on the station for this topic
    ============================================================ */
