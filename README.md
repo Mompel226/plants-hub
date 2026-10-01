@@ -78,7 +78,9 @@ seedling bends to the sun when the shoot is.
 
 Static files, no build step beyond a cache stamp, no framework. GitHub Pages serves it as it is.
 
-- **`js/topics.js` — the topic register.** The only file you edit when a lab changes.
+- **`js/topics.js` — the topic register.** Edit it when a lab changes (with `js/stages.js` for a
+  station's id, number or title); a new lab also needs its row in `labs-shared/labs.json`, the
+  front door's `js/shelves.js`, the labs script's `LABS` and the sitemap.
 - **`js/stages.js`** — what each stage says: the text, the line of reality, the photograph and its
   credit, the lab stations, the syllabus sections.
 - **`js/plant.js` and `js/plant-draw.js`** — the plant: its parts, its growth stages, and the code

@@ -14,8 +14,3 @@ Every photograph on the Plants Hub is from Wikimedia Commons and is public domai
 | `photos/wheat-*` | [Ripe wheat ears.jpg](https://commons.wikimedia.org/wiki/File:Ripe_wheat_ears.jpg) | Jazzmaster1997 | CC BY 4.0 |
 | `photos/water-lily-*` | [Pink and white Nymphaea water lily flowers, бел и розов лотос.jpg](https://commons.wikimedia.org/wiki/File:Pink_and_white_Nymphaea_water_lily_flowers,_%D0%B1%D0%B5%D0%BB_%D0%B8_%D1%80%D0%BE%D0%B7%D0%BE%D0%B2_%D0%BB%D0%BE%D1%82%D0%BE%D1%81.jpg) | Делфина | CC0 |
 | `photos/barrel-cactus-*` | [Close up of a flowering barrel cactus with its thorns.jpg](https://commons.wikimedia.org/wiki/File:Close_up_of_a_flowering_barrel_cactus_with_its_thorns.jpg) | Gentry George, U.S. Fish and Wildlife Service | Public domain |
-| `photos/pollen-sem-*` | [Misc pollen colorized.jpg](https://commons.wikimedia.org/wiki/File:Misc_pollen_colorized.jpg) | Dartmouth Electron Microscope Facility, Dartmouth College | Public domain |
-| `photos/sunflower-*` | [Sunflower close-up15.jpg](https://commons.wikimedia.org/wiki/File:Sunflower_close-up15.jpg) | Alan Levine | CC0 |
-| `photos/dandelion-*` | [Dandelion seed heads 3.jpg](https://commons.wikimedia.org/wiki/File:Dandelion_seed_heads_3.jpg) | W.carter | CC0 |
-| `photos/sunflower-field-*` | [Sunflower field at sunset.jpg](https://commons.wikimedia.org/wiki/File:Sunflower_field_at_sunset.jpg) | Summer Stock | CC0 |
-| `photos/bean-seeds-*` | [Phaseolus vulgaris seeds.jpg](https://commons.wikimedia.org/wiki/File:Phaseolus_vulgaris_seeds.jpg) | Wilfredor | CC0 |
