@@ -29,8 +29,8 @@ by **Dr Daniel Mompel Riera** · NLCS Jeju
 This is one **shelf** of the [Biology Hub](https://nlcsbiology.com/biology-hub/), the front
 door to every Biology app at NLCS Jeju. A student goes front door → this shelf → a lab. The other
 shelves are the [Human Body Hub](https://nlcsbiology.com/human-body-hub/) (topics 7 and 9–16)
-and the [Life on Earth Hub](https://nlcsbiology.com/life-on-earth-hub/) (topics 1 and 17–21);
-Foundations is being built. The link at the top of the page goes back up.
+the [Life on Earth Hub](https://nlcsbiology.com/life-on-earth-hub/) (topics 1 and 17–21) and
+[Foundations](https://nlcsbiology.com/foundations-hub/) (topics 2–5). The link at the top of the page goes back up.
 
 Behind this shelf sits one lab, the **[Plants Lab](https://nlcsbiology.com/plants-lab/)**,
 which covers every plant topic in twelve stations, the potometer practical among them. Every stage of the plant here names the station
