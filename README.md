@@ -78,6 +78,8 @@ seedling bends to the sun when the shoot is.
 
 Static files, no build step beyond a cache stamp, no framework. GitHub Pages serves it as it is.
 
+The `tools/` named here stay on Daniel's computer: they are not in this repository (since 18 Oct 2026).
+
 - **`js/topics.js` — the topic register.** Edit it when a lab changes (with `js/stages.js` for a
   station's id, number or title); a new lab also needs its row in `labs-shared/labs.json`, the
   front door's `js/shelves.js`, the labs script's `LABS` and the sitemap.
