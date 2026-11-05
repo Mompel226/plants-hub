@@ -16,7 +16,7 @@ the exam wants, then what really happens. Left alone, it grows on its own.
 ![No sign-up](https://img.shields.io/badge/students-no_sign--up_needed-6FA287)
 ![Photographs CC0 / CC BY](https://img.shields.io/badge/photographs-Commons_CC0_%2F_CC_BY-7c4dc0)
 
-by **Dr Daniel Mompel Riera** · NLCS Jeju
+by **Dr Daniel Mompel Riera**
 
 </div>
 
@@ -105,7 +105,7 @@ The plant, the ground, the cactus and the water lily are drawn by the page. Ever
 from Wikimedia Commons, public domain, CC0 or CC BY, credited under the picture on the page and
 listed with every licence in [`assets/CREDITS.md`](assets/CREDITS.md).
 
-Made by **Dr Daniel Mompel Riera** · Biology, NLCS Jeju ·
+Made by **Dr Daniel Mompel Riera** ·
 [dmompelriera@nlcsjeju.kr](mailto:dmompelriera@nlcsjeju.kr)
 
 ## Licence
