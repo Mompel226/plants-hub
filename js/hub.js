@@ -208,7 +208,9 @@
      pause; the Grow button starts it and, pressed again, pauses it. Scrolling never stops it — on a phone a
      reader scrolls the notebook while the plant grows, and the plant must keep growing. */
   var tour = null, resume = null, ti = 0, TOUR_MS = 3600, wantTour = !still;
-  function startTour() { if (still || tour || held || !STAGE_IDS.length || !wantTour) return; stepTour(); tour = setInterval(stepTour, TOUR_MS); paintPlay(); }
+  /* with Reduce motion the plant never grows by itself, but the Grow button still works (Daniel, 9 Nov 2026: "Nothing
+     should disappear"): each stage then stands as a still, one after another, until the button is pressed again */
+  function startTour(byHand) { if ((still && !byHand) || tour || held || !STAGE_IDS.length || !wantTour) return; stepTour(); tour = setInterval(stepTour, TOUR_MS); paintPlay(); }
   function stepTour() { var id = STAGE_IDS[ti % STAGE_IDS.length]; ti++; show(id, true); }
   function stopTour() { clearInterval(tour); tour = null; clearTimeout(resume); paintPlay(); }
   function restTour() {
@@ -221,7 +223,7 @@
   function paintPlay() { if (playBtn) { playBtn.setAttribute('aria-pressed', tour ? 'true' : 'false'); playBtn.textContent = tour ? '⏸ Growing' : '⏵ Grow'; } }
   if (playBtn) playBtn.addEventListener('click', function () {
     if (tour) { wantTour = false; stopTour(); leave(); }
-    else { wantTour = true; if (held) release(); startTour(); }
+    else { wantTour = true; if (held) release(); startTour(true); }
   });
   /* a touch or a scroll does not stop the plant; it only holds back the restart while the reader is busy */
   ['pointerdown', 'wheel', 'touchstart'].forEach(function (ev) {
