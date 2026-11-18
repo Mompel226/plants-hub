@@ -33,7 +33,7 @@ window.STAGES = [
     text: 'The shoot grows up and towards the light, and the root grows down towards gravity. These are tropisms: growth responses to a stimulus. A shoot bends because a hormone, auxin, made in its tip collects on the shaded side and makes those cells grow longer.',
     real: 'Lay a seedling on its side in the dark and it still turns its shoot up and its root down. Gravity is the stimulus; no light is needed.',
     img: { base: 'assets/photos/seedling', alt: 'A cucumber seedling with its two seed leaves open, in soil', caption: 'A cucumber seedling, seed leaves open, reaching up', credit: 'Peter Chastain · public domain · Wikimedia Commons', url: 'https://commons.wikimedia.org/wiki/File:Cucumber_Seedling.jpg' },
-    stations: [{ id: 'tropisms', n: 9, title: 'Bending to the light' }], topics: ['14.5'] },
+    stations: [{ id: 'tropisms', n: 9, title: 'Growing towards the light' }], topics: ['14.5'] },
 
   { id: 'stem', n: 4, title: 'The stem carries', chip: 'Stem',
     text: 'Inside the stem run two kinds of tube, together in vascular bundles. Xylem carries water and mineral ions up from the roots, and holds the plant up; phloem carries sucrose and amino acids from the leaves to wherever they are needed — up or down.',
